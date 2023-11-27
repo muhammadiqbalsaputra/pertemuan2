@@ -1,0 +1,168 @@
+body{
+    padding: 0;
+    margin: 0;
+    height: auto;
+}
+
+p{
+    color: white;
+    background-color: rgb(51, 0, 98);
+    padding: 30px;
+    font-size: 80%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style:initial;
+}
+.navbar h2{
+    border-color:2px solid red;
+    margin-right: 450px  ;
+    color: aliceblue;
+}
+
+.navbar{   
+    background-color: blue;
+    display: flex;
+    justify-content: end;
+}
+
+.navbar a{
+    color:aliceblue;
+    /* padding jarak pada di dalam border */
+    padding: 20px;
+    /* margin jarak pada luar border */
+    /* margin: 50px; */
+    font-weight: bold;
+    /* teks decoration none untuk menghilangkan garis dibawah teks */
+    text-decoration: none;
+    width: 5%;
+}
+
+.jumbotron{
+    position: relative;
+    overflow: hidden;
+    height: 400px;
+}
+.jumbotron h2{
+    font-size: 50px;
+    font-weight: bold;
+    z-index: 1;
+    width: 700px;
+    padding-top: 50px;
+    margin-left: 300px;
+    
+}
+.jumbotron p{
+    justify-content: center;
+    background-color: transparent;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 100px 100px;
+    font-size: 20px;
+    
+}
+.jumbotron img{
+    position: absolute;
+    width: 100%;
+    z-index: -3;
+}
+.intro{
+    display: flex;
+    box-shadow: 3px -3px 7px 0px darkblue;
+    margin: 30px 30px 30px 30px;
+    /* penggunaan urutan margin atas bawah kiri kanan */
+    border-radius: 10px;
+    z-index: 2 ;
+}
+
+.intro img{
+    justify-content: left;
+    display: flex;
+}
+
+.intro p{
+    text-align: center;
+    display: flex;
+    float: end;
+    background-color: transparent;
+    color: black;
+    width: 500px;
+    margin: 30px;
+    margin-left: 100px;
+    font-size: 13px;
+}
+.desc{
+    padding: 10px;
+}
+
+
+footer {
+    width: 100%;
+    display: flex;
+    font-size: 30px;
+    background: linear-gradient(blue, rgb(87, 158, 182));
+    text-align: center;
+    justify-content: start;
+    padding: 10px;
+}
+
+.picture {
+    margin-top: 50px;
+    margin-left: 70px;
+    display: flex;
+    justify-content: end;
+    width: 500px;
+    height: 100px;
+}
+.picture p{
+    font-size: 25px;
+    position: relative;
+    bottom: 90px;
+    left: 100px; 
+    justify-content: flex-start;
+    color: white;
+    background-color: transparent;
+    width: 200px;
+}
+.picture img{
+    position: relative;
+    right: 100px;
+    width: 100px;
+    padding: 20px;
+    display: flex;
+    float: right;
+    width: 50px ;
+}
+
+
+.footer p{
+    font-size: 20px;
+    background-color:transparent;
+    text-align: start;
+    justify-content: start;
+    width: 300px;
+    padding: 50px;
+}
+
+.daftarfooter{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 160px;
+    color: white;
+    width: 500px auto;
+    height: 150px;
+    padding: 5px;
+}
+.daftarfooter a{
+    position: relative;
+    top: 15px;
+    font-size: 10px;
+    font-weight: lighter;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+.daftarfooter li{
+    padding: 5px;
+    list-style-type: none;
+    width: 150px;
+}
